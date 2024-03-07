@@ -18,7 +18,7 @@ const Home = () => {
               ease: [0.5, 0.71, 1, 1.5],
             }}
             initial={{ opacity: 0, scale: 0.5 }}
-            whileHover={{ scale: 1 }}
+            // whileHover={{ scale: 1 }}
           >
             <motion.span className="font-bold text-blue-700 text-4xl">
               Bawa{" "}
