@@ -9,7 +9,7 @@ import RequestConnect from "./pages/RequestConnect";
 function App() {
   const [users, setUsers] = useState([]);
 
-  //using te useEffect hookk to fetch data from an api immediately the page mounts on the web
+  //using te useEffect hook to fetch data from an api immediately the page mounts...
   useEffect(() => {
     const fetchUsers = async () => {
       try {
